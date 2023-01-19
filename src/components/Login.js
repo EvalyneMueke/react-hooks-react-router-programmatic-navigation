@@ -16,8 +16,7 @@ function Login({ setIsLoggedIn }) {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
-
+    e.preventDefault()
     fetch("http://localhost:3001/login", {
       method: "POST",
       headers: {
